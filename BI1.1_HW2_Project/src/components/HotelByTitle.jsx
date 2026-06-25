@@ -2,7 +2,7 @@ import useFetch from "../useFetch";
 const HotelByTitle = ({name}) =>{
 
        const{data, loading, error} = 
-    useFetch(`http://localhost:3000/hotels/${name}`);
+    useFetch(`https://front-end-hotels-git-bi11hw2-rashmiw333s-projects.vercel.app/hotels/${name}`);
 
     console.log(data)
 
