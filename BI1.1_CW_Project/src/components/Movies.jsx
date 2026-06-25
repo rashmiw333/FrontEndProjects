@@ -3,7 +3,7 @@ import useFetch from "../useFetch"
 const Movies =()=>{
 
     const{data, loading, error} = 
-    useFetch("http://localhost:3000/movies");
+    useFetch("https://backend-hotels1-git-bi11cw-rashmiw333s-projects.vercel.app/movies");
 
     // console.log(data);
 
