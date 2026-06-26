@@ -8,7 +8,7 @@ const BookByAuthor = ({author}) =>{
 
     return (
         <div>
-          <h2>Books By {data[0].author}</h2>
+          <h2>Books By {data?.[0]?.title}</h2>
             <ul>
             {data?.map(book=>(
                 <li>{book.title}</li>
