@@ -3,7 +3,7 @@ import useFetch from "../useFetch"
 const Movies =()=>{
 
     const{data, loading, error} = 
-    useFetch("backend-movies-kappa.vercel.app/movies");
+    useFetch("https://backend-movies-kappa.vercel.app/movies");
 
     // console.log(data);
 
