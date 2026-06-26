@@ -2,7 +2,7 @@ import useFetch from "../useFetch";
 const MovieByTitle = ({title}) =>{
 
        const{data, loading, error} = 
-    useFetch(`backend-movies-kappa.vercel.app/movies/${title}`);
+    useFetch(`https://backend-movies-kappa.vercel.app/movies/${title}`);
 
     console.log(data)
 
