@@ -2,7 +2,7 @@ import useFetch from "../useFetch";
 const MovieByTitle = ({title}) =>{
 
        const{data, loading, error} = 
-    useFetch(`https://backend-hotels1-git-bi11cw-rashmiw333s-projects.vercel.app/movies/${title}`);
+    useFetch(`backend-movies-kappa.vercel.app/movies/${title}`);
 
     console.log(data)
 
