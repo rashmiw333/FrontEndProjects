@@ -2,7 +2,7 @@ import useFetch from "../useFetch";
 const BookByTitle = ({title}) =>{
 
        const{data, loading, error} = 
-    useFetch(`backend-books-tau.vercel.app/books/${title}`);
+    useFetch(`https://backend-books-tau.vercel.app/books/${title}`);
 
     //console.log(data)
 
