@@ -8,10 +8,12 @@ const Books =()=>{
    // console.log(data);
 
     return(
-        <div>
+        <div className="books-container">
+            {loading&& <p>Loading...</p>}
+            {error&& <P>{error}</P>}
             <ul>
             {data?.map(book=>(
-                <li>{book.title}</li>
+                <li key={book._id}>{book.title}</li>
             ))}
             </ul>
         </div>

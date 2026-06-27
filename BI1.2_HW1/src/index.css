@@ -1,0 +1,80 @@
+:root {
+  --text: #6b6375;
+  --text-h: hsl(257, 37%, 4%);
+  --bg: #ffffff;
+  --border: #e5e4e7;
+  --sans: system-ui, "Segoe UI", Roboto, sans-serif;
+}
+
+body {
+  margin: 0;
+  padding: 20px;
+  font-family: var(--sans);
+  background-color: var(--bg);
+  color: var(--text);
+}
+
+#root {
+  width: 100%;
+}
+
+/* Main container */
+.app-container {
+  max-width: 450px;
+}
+
+/* Headings */
+h1,
+h2 {
+  color: var(--text-h);
+  margin-bottom: 15px;
+}
+
+h1 {
+  font-size: 32px;
+}
+
+h2 {
+  font-size: 24px;
+}
+
+/* Form */
+form {
+  width: 100%;
+}
+
+label {
+  display: block;
+  margin-top: 15px;
+  margin-bottom: 5px;
+  font-weight: 600;
+}
+
+input,
+textarea,
+select {
+  width: 100%;
+  padding: 8px;
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+textarea {
+  resize: vertical;
+}
+
+button {
+  margin-top: 20px;
+  padding: 10px 18px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+/* Movie details below the form */
+.app-container {
+  max-width: 450px;
+}
+
+.books-container {
+  margin-top: 30px;
+}

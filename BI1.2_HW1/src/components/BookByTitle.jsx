@@ -7,7 +7,7 @@ const BookByTitle = ({title}) =>{
     //console.log(data)
 
     return data ? (
-        <div>
+        <div className="books-container">
           <h2>{data.title}</h2>
             <p>Author: {data.author}</p>
             <p>ReleaseYear: {data.publishedYear}</p>
