@@ -26,7 +26,7 @@ const AddBookForm = ()=>{
         const handleSubmit = async(event)=>{
             event.preventDefault();
             try{
-                const response = await fetch("https://backend-books-tau.vercel.app/books",
+                const response = await fetch("http://localhost:3000/books",
                 {
                   method: "POST" ,
                   headers:{
