@@ -18,6 +18,18 @@ body {
   width: 100%;
 }
 
+.checkbox-label {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin: 10px 0;
+}
+
+.checkbox-label input {
+  width: auto;
+  margin: 0;
+}
+
 /* Main container */
 .app-container {
   max-width: 450px;
