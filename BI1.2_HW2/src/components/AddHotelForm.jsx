@@ -21,26 +21,6 @@ const AddHotelForm = () => {
     photos: "",
   });
 
-// name (text field), 
-// category (dropdown field, the options should be the options present as enums),  
-// location (text field), 
-// rating (Number field),
-// website (text field),
-// phoneNumber (text field),
-// checkInTime (text field),
-// checkOutTime (text field),
-// amenities (text field),
-// priceRange (dropdown field, the options should be the options present as your enums),
-// reservationsNeeded (checkbox),
-// isParkingAvailable (checkbox),
-// isWifiAvailable (checkbox),
-// isPoolAvailable (checkbox),
-// isSpaAvailable (checkbox),
-// isRestaurantAvailable(checkbox),
-// photos (text field)
-
-
-
   const handleChange = (e) => {
     const { name, value, type, checked } = e.target;
 
@@ -62,7 +42,7 @@ const AddHotelForm = () => {
     };
 
     try {
-      const response = await fetch("http://localhost:3000/hotels", {
+      const response = await fetch("https://backend-hotels-psi.vercel.app/hotels", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
