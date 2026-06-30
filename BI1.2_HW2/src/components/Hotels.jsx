@@ -4,11 +4,11 @@ import useFetch from "../useFetch"
 const Hotels =()=>{
      const [successMessage,setSuccessMessage] = useState("");
     const{data, loading, error} = 
-    useFetch("http://localhost:3000/hotels");
+    useFetch("https://backend-hotels-psi.vercel.app/hotels");
 
         const handleDelete =async(hotelId)=>{
         try{
-        const response = await fetch(`http://localhost:3000/hotels/${hotelId}`,
+        const response = await fetch(`https://backend-hotels-psi.vercel.app/hotels/${hotelId}`,
             {method: "DELETE"},
         );
         if(!response.ok){
