@@ -36,7 +36,7 @@ const Hotels =()=>{
                 <button onClick={()=>handleDelete(hotel._id)}>Delete</button></li>
             ))}
             </ul>
-             {successMessage && <p>{successMessage}</p>}
+              <p>{successMessage}</p>
         </div>
     )
 }
